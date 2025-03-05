@@ -1,148 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17873" start="node1" appversion="6.1.2">
+<tour start="node1" appversion="6.1.2" apprev="17873">
   <panorama id="node1">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level preload="0" width="2048" predecode="0" height="2048"/>
-      <level preload="0" width="1024" predecode="0" height="1024"/>
-      <level preload="0" width="512" predecode="0" height="512"/>
-      <level preload="1" width="256" predecode="1" height="256"/>
+    <input overlap="1" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048" width="2048" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="181.562" fovmode="0">
-      <start pan="6.61" tilt="-36.15" projection="4" fov="76.67"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
+    <view fovmode="0" pannorth="181.562">
+      <start projection="4" tilt="-46.25" fov="58.4" pan="20.2"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovstereographic="270" tilt="90" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata copyright="" datetime="01-01-1970 0:00" source="" nodeid="node1" comment="" latitude="-38.441518" info="" tags="LOTEO Malalcahuello" author="" longitude="-71.520603" customnodeid="" title="Vista Aérea" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" wordwrap="1" borderalpha="1" width="180" textalpha="1" backgroundcolor="0xffffff" border="1" height="20" bordercolor="0x000000" borderradius="1" enabled="1" background="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" mode="2" borderalpha="0" backgroundcolor="0x3aff68" bordercolor="0x0000ff"/>
-      <polyhotspot url="" target="_blank" title="" id="Poly01" description="">
-        <polystring>-303.4/-33.45|-320.67/-22.26|-324.87/-21.78|-331.02/-24.77|-336.2/-27.04|-340.76/-28.71|-344.72/-30.01|-347.5/-30.99|-353.93/-33.03|-357.83/-33.52|-3.42/-33.66|-8.03/-34.54|-12.75/-34.16|-27.31/-32.3|-30.9/-30.97|-33.81/-28.33|-41.67/-34.81|-37.89/-36.16|-24.31/-41.09|-8.99/-43.66|-352.84/-44.58|-343.68/-44.88|-339.15/-44.9|-324.14/-43.82|-317.43/-41.05|-310.32/-39.51</polystring>
-      </polyhotspot>
-      <hotspot pan="-350.16" url="" skinid="ht_PropiedadEnVenta" target="_blank" tilt="-37.63" title="" id="Point01" description=""/>
-      <hotspot pan="-273.3" url="" skinid="ht_tag_georeferencia_smallRightYellow" target="_blank" tilt="-45.54" title="Ruta R-89" id="Point01" description=""/>
-      <hotspot pan="-85.21" url="images/Volcán-Lonquimay.jpg" skinid="ht_tag_georeferencia_mediumRight" target="" tilt="8.23" title="Volcán Lonquimay" id="Point02" description=""/>
-      <hotspot pan="-292.46" url="" skinid="ht_tag_georeferencia_smallRightYellow" target="_blank" tilt="-29.33" title="Acceso" id="Point01" description=""/>
-      <hotspot pan="-65.02" url="images/Reserva-Nacional-Malalcahuello.jpg" skinid="ht_tag_georeferencia_smallRight" target="" tilt="0.82" title="Reserva Nacional Malalcahuello" id="Point02" description="10 min | 7,8 km"/>
-      <hotspot pan="-91.44" url="images/ski.jpg" skinid="ht_tag_georeferencia_smallRight" target="" tilt="-1.9" title="Centro de Ski" id="Point02" description="9 min | 5 km"/>
-      <hotspot pan="-329.62" url="images/Sierra-Nevada.jpg" skinid="ht_tag_georeferencia_smallLeft" target="" tilt="1.3" title="Sierra Nevada" id="Point02" description="57 min | 52,5 km"/>
-      <hotspot pan="-340.94" url="images/Volcán-Pichi-Llaima.jpg" skinid="ht_tag_georeferencia_mediumLeft" target="" tilt="1.29" title="Volcán Llaima" id="Point02" description="1 h min | 53 km"/>
-      <hotspot pan="-348.57" url="images/conguillio.jpg" skinid="ht_tag_georeferencia_largeRight" target="" tilt="-0.04" title="Reserva Nacional Conguillio" id="Point02" description="58 min | 52,5 km"/>
-      <hotspot pan="-355.7" url="images/Villarrica.jpg" skinid="ht_tag_georeferencia_smallRight" target="" tilt="0.9" title="Villarrica" id="Point02" description="2 h 15 min | 204 km"/>
-      <hotspot pan="-25.19" url="images/Temuco.jpg" skinid="ht_tag_georeferencia_smallRight" target="" tilt="0.41" title="Temuco" id="Point02" description="1 h 59 min | 123 km"/>
-      <hotspot pan="-17.12" url="images/aeropuerto.jpg" skinid="ht_tag_georeferencia_mediumRight" target="" tilt="0.78" title="Aeropuerto Araucanía" id="Point02" description="2 h 1 min | 147 km"/>
-      <hotspot pan="-39.78" url="images/Reserva-Nacional-Malalcahuello.jpg" skinid="ht_tag_georeferencia_smallRight" target="" tilt="0.09" title="Lautaro" id="Point02" description="1 h 23 min | 92,5 km"/>
-      <hotspot pan="-42.46" url="" skinid="ht_tag_georeferencia_smallRightYellow" target="_blank" tilt="-35.32" title="Acceso 2" id="Point01" description=""/>
+    <userdata customnodeid="" info="" title="Vista Aérea" copyright="" description="" author="" source="" comment="" tags="LOTEO Malalcahuello" latitude="-38.441518" nodeid="node1" datetime="01-01-1970 0:00" longitude="-71.520603"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label background="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" enabled="1" height="20" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x3aff68" bordercolor="0x0000ff" handcursor="1" borderalpha="0" backgroundalpha="0.25098" mode="2"/>
+      <hotspot url="" id="Point01" title="Ruta R-89" target="_blank" tilt="-45.54" description="" skinid="ht_tag_georeferencia_smallRightYellow" pan="-273.3"/>
+      <hotspot url="images/Volcán-Lonquimay.jpg" id="Point02" title="Volcán Lonquimay" target="" tilt="8.23" description="" skinid="ht_tag_georeferencia_mediumRight" pan="-85.21"/>
+      <hotspot url="" id="Point01" title="Acceso" target="_blank" tilt="-29.31" description="" skinid="ht_tag_georeferencia_smallRightYellow" pan="-292.2"/>
+      <hotspot url="images/Reserva-Nacional-Malalcahuello.jpg" id="Point02" title="Reserva Nacional Malalcahuello" target="" tilt="0.82" description="10 min | 7,8 km" skinid="ht_tag_georeferencia_smallRight" pan="-65.02"/>
+      <hotspot url="images/ski.jpg" id="Point02" title="Centro de Ski Corralco" target="" tilt="-2.09" description="9 min | 5 km" skinid="ht_tag_georeferencia_smallRight" pan="-91.39"/>
+      <hotspot url="images/Sierra-Nevada.jpg" id="Point02" title="Sierra Nevada" target="" tilt="1.3" description="57 min | 52,5 km" skinid="ht_tag_georeferencia_smallLeft" pan="-329.62"/>
+      <hotspot url="images/Volcán-Pichi-Llaima.jpg" id="Point02" title="Volcán Llaima" target="" tilt="1.29" description="1 h min | 53 km" skinid="ht_tag_georeferencia_mediumLeft" pan="-340.94"/>
+      <hotspot url="images/conguillio.jpg" id="Point02" title="Reserva Nacional Conguillio" target="" tilt="-0.04" description="58 min | 52,5 km" skinid="ht_tag_georeferencia_largeRight" pan="-348.57"/>
+      <hotspot url="images/Villarrica.jpg" id="Point02" title="Villarrica" target="" tilt="0.9" description="2 h 15 min | 204 km" skinid="ht_tag_georeferencia_smallRight" pan="-355.7"/>
+      <hotspot url="images/Temuco.jpg" id="Point02" title="Temuco" target="" tilt="0.41" description="1 h 59 min | 123 km" skinid="ht_tag_georeferencia_smallRight" pan="-25.19"/>
+      <hotspot url="images/aeropuerto.jpg" id="Point02" title="Aeropuerto Araucanía" target="" tilt="0.78" description="2 h 1 min | 147 km" skinid="ht_tag_georeferencia_mediumRight" pan="-17.12"/>
+      <hotspot url="images/Reserva-Nacional-Malalcahuello.jpg" id="Point02" title="Lautaro" target="" tilt="0.09" description="1 h 23 min | 92,5 km" skinid="ht_tag_georeferencia_smallRight" pan="-39.78"/>
+      <hotspot url="" id="Point01" title="Acceso 2" target="_blank" tilt="-38.61" description="" skinid="ht_tag_georeferencia_smallRightYellow" pan="-48.53"/>
+      <hotspot url="" id="Point01" title="Camino a Reserva Nacional Malalcahuello" target="_blank" tilt="-24.87" description="Ruta R-785" skinid="ht_tag_georeferencia_smallRightYellow" pan="-65.31"/>
+      <hotspot url="" id="Point01" title="Estero" target="_blank" tilt="-57.02" description="Estero" skinid="ht_aguas" pan="-17.52"/>
+      <hotspot url="" id="Point01" title="Vertiente" target="_blank" tilt="-14.44" description="" skinid="ht_aguas" pan="-350.13"/>
+      <hotspot url="" id="Point01" title="Vertiente" target="_blank" tilt="-16.55" description="" skinid="ht_aguas" pan="-18.08"/>
+      <hotspot url="" id="Point01" title="Gori's Food &amp; Drinks" target="_blank" tilt="-51.57" description="" skinid="ht_tag_georeferencia_smallLeft" pan="-254.77"/>
+      <hotspot url="" id="Point01" title="Río Cautín" target="_blank" tilt="-41.78" description="" skinid="ht_tag_georeferencia_mediumRight_Blue" pan="-239.82"/>
+      <hotspot url="" id="Point01" title="Playa Walkowiak" target="_blank" tilt="-19.53" description="" skinid="ht_tag_georeferencia_smallLeft" pan="-179.82"/>
+      <hotspot url="" id="Point07" title="CONAF Reserva Malalcahuello" target="_blank" tilt="-11.76" description="" skinid="ht_tag_georeferencia_smallRight" pan="-76.67"/>
+      <hotspot url="images/lonquimay.jpg" id="Point01" title="Lonquimay" target="" tilt="0.89" description="37 min | 21,3 km " skinid="ht_tag_georeferencia_mediumLeft" pan="-211.6"/>
+      <hotspot url="" id="69" title="69" target="_blank" tilt="-39.75" description="" skinid="ht_noDisponible" pan="-44.01"/>
+      <hotspot url="" id="68" title="68" target="_blank" tilt="-37.96" description="" skinid="ht_noDisponible" pan="-39.12"/>
+      <hotspot url="" id="67" title="67" target="_blank" tilt="-41.29" description="" skinid="ht_noDisponible" pan="-40.89"/>
+      <hotspot url="" id="66" title="66" target="_blank" tilt="-39.25" description="" skinid="ht_noDisponible" pan="-35.91"/>
+      <hotspot url="" id="65" title="65" target="_blank" tilt="-42.69" description="" skinid="ht_noDisponible" pan="-37.18"/>
+      <hotspot url="" id="64" title="64" target="_blank" tilt="-40.58" description="" skinid="ht_noDisponible" pan="-32.06"/>
+      <hotspot url="" id="63" title="63" target="_blank" tilt="-44.34" description="" skinid="ht_noDisponible" pan="-33.63"/>
+      <hotspot url="" id="62" title="62" target="_blank" tilt="-41.87" description="" skinid="ht_noDisponible" pan="-27.78"/>
+      <hotspot url="" id="61" title="61" target="_blank" tilt="-46.52" description="" skinid="ht_noDisponible" pan="-28.54"/>
+      <hotspot url="" id="60" title="60" target="_blank" tilt="-43.84" description="" skinid="ht_noDisponible" pan="-22.9"/>
+      <hotspot url="" id="59" title="59" target="_blank" tilt="-47.98" description="" skinid="ht_noDisponible" pan="-23.03"/>
+      <hotspot url="" id="58" title="58" target="_blank" tilt="-44.85" description="" skinid="ht_noDisponible" pan="-16.77"/>
+      <hotspot url="" id="57" title="57" target="_blank" tilt="-49.84" description="" skinid="ht_noDisponible" pan="-16.04"/>
+      <hotspot url="" id="56" title="56" target="_blank" tilt="-46.04" description="" skinid="ht_noDisponible" pan="-9.4"/>
+      <hotspot url="" id="55" title="55" target="_blank" tilt="-51.58" description="" skinid="ht_noDisponible" pan="-7.83"/>
+      <hotspot url="" id="54" title="54" target="_blank" tilt="-47.37" description="" skinid="ht_noDisponible" pan="-2.47"/>
+      <hotspot url="" id="53" title="53" target="_blank" tilt="-52.56" description="" skinid="ht_noDisponible" pan="-359.74"/>
+      <hotspot url="" id="52" title="52" target="_blank" tilt="-47.76" description="" skinid="ht_noDisponible" pan="-355.65"/>
+      <hotspot url="" id="51" title="51" target="_blank" tilt="-53.1" description="" skinid="ht_noDisponible" pan="-352.76"/>
+      <hotspot url="" id="50" title="50" target="_blank" tilt="-48.45" description="" skinid="ht_noDisponible" pan="-349.06"/>
+      <hotspot url="" id="49" title="49" target="_blank" tilt="-53.37" description="" skinid="ht_noDisponible" pan="-344.74"/>
+      <hotspot url="" id="48" title="48" target="_blank" tilt="-48.33" description="" skinid="ht_noDisponible" pan="-341.4"/>
+      <hotspot url="" id="47" title="47" target="_blank" tilt="-52.41" description="" skinid="ht_noDisponible" pan="-336.25"/>
+      <hotspot url="" id="46" title="46" target="_blank" tilt="-47.74" description="" skinid="ht_noDisponible" pan="-333.88"/>
+      <hotspot url="" id="45" title="45" target="_blank" tilt="-52.19" description="" skinid="ht_noDisponible" pan="-328.71"/>
+      <hotspot url="" id="44" title="44" target="_blank" tilt="-47.03" description="" skinid="ht_noDisponible" pan="-327.73"/>
+      <hotspot url="" id="43" title="43" target="_blank" tilt="-50.58" description="" skinid="ht_noDisponible" pan="-321.88"/>
+      <hotspot url="" id="42" title="42" target="_blank" tilt="-45.59" description="" skinid="ht_noDisponible" pan="-321.42"/>
+      <hotspot url="" id="41" title="41" target="_blank" tilt="-48.8" description="" skinid="ht_noDisponible" pan="-315.65"/>
+      <hotspot url="" id="21" title="21" target="_blank" tilt="-43.63" description="" skinid="ht_noDisponible" pan="-317.36"/>
+      <hotspot url="" id="20" title="20" target="_blank" tilt="-41.35" description="" skinid="ht_noDisponible" pan="-305.06"/>
+      <hotspot url="" id="70" title="70" target="_blank" tilt="-36.68" description="" skinid="ht_noDisponible" pan="-43.09"/>
+      <hotspot url="" id="71" title="71" target="_blank" tilt="-39.07" description="Superficie parcial: 464.004,47 m²&#xa;Servidumbre: 4.356,11 m²&#xa;Superficie total: 468.360,58 m²" skinid="ht_disponible" pan="-352.69"/>
+      <hotspot url="" id="71-J" title="71-J" target="_blank" tilt="-25.95" description="Superficie parcial: 50.234,57 m²&#xa;Servidumbre: --------&#xa;Superficie total: 50.234,57 m²" skinid="ht_noDisponible" pan="-315.22"/>
+      <hotspot url="" id="71-I" title="71-I" target="_blank" tilt="-27.74" description="Superficie parcial: 6.289,86 m²&#xa;Servidumbre: --------&#xa;Superficie total: 6.289,86 m²" skinid="ht_noDisponible" pan="-308.16"/>
+      <hotspot url="" id="71-H" title="71-H" target="_blank" tilt="-30.64" description="Superficie parcial: 6.387,61 m²&#xa;Servidumbre: --------&#xa;Superficie total: 6.387,61 m²" skinid="ht_noDisponible" pan="-306.37"/>
+      <hotspot url="" id="71-G" title="71-G" target="_blank" tilt="-26.91" description="Superficie parcial: 12.445,31 m²&#xa;Servidumbre: --------&#xa;Superficie total: 12.445,31 m²" skinid="ht_noDisponible" pan="-303.46"/>
+      <hotspot url="" id="71-F" title="71-F" target="_blank" tilt="-22.17" description="Superficie parcial: 12.214,06 m²&#xa;Servidumbre: --------&#xa;Superficie total: 12.214,06 m²" skinid="ht_noDisponible" pan="-312.7"/>
+      <hotspot url="" id="71-E" title="71-E" target="_blank" tilt="-25.63" description="Superficie parcial: 11.982,80 m²&#xa;Servidumbre: --------&#xa;Superficie total: 11.982,80 m²" skinid="ht_noDisponible" pan="-301.49"/>
+      <hotspot url="" id="71-B" title="71-B" target="_blank" tilt="-19.42" description="Superficie parcial: 11.289,05 m²&#xa;Servidumbre: --------&#xa;Superficie total: 11.289,05 m²" skinid="ht_noDisponible" pan="-309.74"/>
+      <hotspot url="" id="71-A" title="71-A" target="_blank" tilt="-19.57" description="Superficie parcial: 39.546,18 m²&#xa;Servidumbre: --------&#xa;Superficie total: 39.546,18 m²" skinid="ht_noDisponible" pan="-303.14"/>
+      <hotspot url="" id="71-C" title="71-C" target="_blank" tilt="-23.59" description="Superficie parcial: 11.520,30 m²&#xa;Servidumbre: --------&#xa;Superficie total: 11.520,30 m²" skinid="ht_noDisponible" pan="-302.02"/>
+      <hotspot url="" id="71-D" title="71-D" target="_blank" tilt="-20.88" description="Superficie parcial: 11.751,55 m²&#xa;Servidumbre: --------&#xa;Superficie total: 11.751,55 m²" skinid="ht_noDisponible" pan="-311.7"/>
+      <hotspot url="" id="40" title="40" target="_blank" tilt="-34.4" description="" skinid="ht_noDisponible" pan="-294.24"/>
+      <hotspot url="" id="41" title="41" target="_blank" tilt="-31.76" description="" skinid="ht_noDisponible" pan="-301.37"/>
+      <hotspot url="" id="42" title="42" target="_blank" tilt="-31.57" description="" skinid="ht_noDisponible" pan="-294.41"/>
+      <hotspot url="" id="43" title="43" target="_blank" tilt="-29.43" description="" skinid="ht_noDisponible" pan="-300.32"/>
+      <hotspot url="" id="24" title="24" target="_blank" tilt="-28.39" description="" skinid="ht_noDisponible" pan="-297.87"/>
+      <hotspot url="" id="25" title="25" target="_blank" tilt="-27.9" description="" skinid="ht_noDisponible" pan="-295.45"/>
+      <hotspot url="" id="26" title="26" target="_blank" tilt="-27.31" description="" skinid="ht_noDisponible" pan="-293.07"/>
+      <hotspot url="" id="27" title="27" target="_blank" tilt="-26.03" description="" skinid="ht_noDisponible" pan="-297.64"/>
+      <hotspot url="" id="28" title="28" target="_blank" tilt="-25.49" description="" skinid="ht_noDisponible" pan="-295.69"/>
+      <hotspot url="" id="29" title="29" target="_blank" tilt="-24.93" description="" skinid="ht_noDisponible" pan="-293.67"/>
+      <hotspot url="" id="30" title="30" target="_blank" tilt="-23.53" description="" skinid="ht_noDisponible" pan="-297.33"/>
+      <hotspot url="" id="31" title="31" target="_blank" tilt="-23.29" description="" skinid="ht_noDisponible" pan="-295.62"/>
+      <hotspot url="" id="32" title="32" target="_blank" tilt="-23.07" description="" skinid="ht_noDisponible" pan="-293.85"/>
+      <hotspot url="" id="33" title="33" target="_blank" tilt="-21.86" description="" skinid="ht_noDisponible" pan="-296.87"/>
+      <hotspot url="" id="34" title="34" target="_blank" tilt="-21.79" description="" skinid="ht_noDisponible" pan="-295.51"/>
+      <hotspot url="" id="35" title="35" target="_blank" tilt="-21.67" description="" skinid="ht_noDisponible" pan="-294.06"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomfov="20" softedge="0" zoomin="0"/>
-    <autorotate nodefilter="" speed="0.020" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0" startloaded="0" delay="20.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" contextprojections="0" contextfullscreen="1" speedwheel="1" hideabout="0" invertcontrol="1" rubberband="0" sensitivity="8" lockedmouse="0" lockedwheel="0" lockedkeyboard="0"/>
+    <transition zoomoutpause="1" type="crossdissolve" zoomfov="20" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" enabled="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate startloaded="0" useanimation="0" speed="0.020" nodefilter="" noderandom="1" returntohorizon="0.000" delay="20.00" enabled="1" nodedelay="0.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="0" invertcontrol="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" speedwheel="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level preload="0" width="2048" predecode="0" height="2048"/>
-      <level preload="0" width="1024" predecode="0" height="1024"/>
-      <level preload="0" width="512" predecode="0" height="512"/>
-      <level preload="1" width="256" predecode="1" height="256"/>
+    <input overlap="1" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048" width="2048" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovstereographic="270" tilt="90" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata copyright="" datetime="01-01-1970 0:00" source="" nodeid="node2" comment="" latitude="-38.451242" info="" tags="LOTEO Malalcahuello" author="" longitude="-71.521472" customnodeid="" title="default" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" wordwrap="1" borderalpha="1" width="180" textalpha="1" backgroundcolor="0xffffff" border="1" height="20" bordercolor="0x000000" borderradius="1" enabled="1" background="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" mode="2" borderalpha="0" backgroundcolor="0x3aff68" bordercolor="0x0000ff"/>
+    <userdata customnodeid="" info="" title="default" copyright="" description="" author="" source="" comment="" tags="LOTEO Malalcahuello" latitude="-38.451242" nodeid="node2" datetime="01-01-1970 0:00" longitude="-71.521472"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label background="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" enabled="1" height="20" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x3aff68" bordercolor="0x0000ff" handcursor="1" borderalpha="0" backgroundalpha="0.25098" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomfov="20" softedge="0" zoomin="0"/>
-    <autorotate nodefilter="" speed="0.020" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0" startloaded="0" delay="20.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" contextprojections="0" contextfullscreen="1" speedwheel="1" hideabout="0" invertcontrol="1" rubberband="0" sensitivity="8" lockedmouse="0" lockedwheel="0" lockedkeyboard="0"/>
+    <transition zoomoutpause="1" type="crossdissolve" zoomfov="20" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" enabled="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate startloaded="0" useanimation="0" speed="0.020" nodefilter="" noderandom="1" returntohorizon="0.000" delay="20.00" enabled="1" nodedelay="0.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="0" invertcontrol="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" speedwheel="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level preload="0" width="2048" predecode="0" height="2048"/>
-      <level preload="0" width="1024" predecode="0" height="1024"/>
-      <level preload="0" width="512" predecode="0" height="512"/>
-      <level preload="1" width="256" predecode="1" height="256"/>
+    <input overlap="1" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048" width="2048" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovstereographic="270" tilt="90" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata copyright="" datetime="01-01-1970 0:00" source="" nodeid="node3" comment="" latitude="-38.427899" info="" tags="LOTEO Malalcahuello" author="" longitude="-71.517579" customnodeid="" title="default" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" wordwrap="1" borderalpha="1" width="180" textalpha="1" backgroundcolor="0xffffff" border="1" height="20" bordercolor="0x000000" borderradius="1" enabled="1" background="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" mode="2" borderalpha="0" backgroundcolor="0x3aff68" bordercolor="0x0000ff"/>
+    <userdata customnodeid="" info="" title="default" copyright="" description="" author="" source="" comment="" tags="LOTEO Malalcahuello" latitude="-38.427899" nodeid="node3" datetime="01-01-1970 0:00" longitude="-71.517579"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label background="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" enabled="1" height="20" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x3aff68" bordercolor="0x0000ff" handcursor="1" borderalpha="0" backgroundalpha="0.25098" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomfov="20" softedge="0" zoomin="0"/>
-    <autorotate nodefilter="" speed="0.020" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0" startloaded="0" delay="20.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" contextprojections="0" contextfullscreen="1" speedwheel="1" hideabout="0" invertcontrol="1" rubberband="0" sensitivity="8" lockedmouse="0" lockedwheel="0" lockedkeyboard="0"/>
+    <transition zoomoutpause="1" type="crossdissolve" zoomfov="20" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" enabled="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate startloaded="0" useanimation="0" speed="0.020" nodefilter="" noderandom="1" returntohorizon="0.000" delay="20.00" enabled="1" nodedelay="0.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="0" invertcontrol="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" speedwheel="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level preload="0" width="2048" predecode="0" height="2048"/>
-      <level preload="0" width="1024" predecode="0" height="1024"/>
-      <level preload="0" width="512" predecode="0" height="512"/>
-      <level preload="1" width="256" predecode="1" height="256"/>
+    <input overlap="1" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048" width="2048" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovstereographic="270" tilt="90" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata copyright="" datetime="01-01-1970 0:00" source="" nodeid="node4" comment="" latitude="-38.419004" info="" tags="LOTEO Malalcahuello" author="" longitude="-71.544435" customnodeid="" title="default" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" wordwrap="1" borderalpha="1" width="180" textalpha="1" backgroundcolor="0xffffff" border="1" height="20" bordercolor="0x000000" borderradius="1" enabled="1" background="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" mode="2" borderalpha="0" backgroundcolor="0x3aff68" bordercolor="0x0000ff"/>
+    <userdata customnodeid="" info="" title="default" copyright="" description="" author="" source="" comment="" tags="LOTEO Malalcahuello" latitude="-38.419004" nodeid="node4" datetime="01-01-1970 0:00" longitude="-71.544435"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label background="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" enabled="1" height="20" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x3aff68" bordercolor="0x0000ff" handcursor="1" borderalpha="0" backgroundalpha="0.25098" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomfov="20" softedge="0" zoomin="0"/>
-    <autorotate nodefilter="" speed="0.020" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0" startloaded="0" delay="20.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" contextprojections="0" contextfullscreen="1" speedwheel="1" hideabout="0" invertcontrol="1" rubberband="0" sensitivity="8" lockedmouse="0" lockedwheel="0" lockedkeyboard="0"/>
+    <transition zoomoutpause="1" type="crossdissolve" zoomfov="20" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" enabled="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate startloaded="0" useanimation="0" speed="0.020" nodefilter="" noderandom="1" returntohorizon="0.000" delay="20.00" enabled="1" nodedelay="0.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="0" invertcontrol="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" speedwheel="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" levelbias="0.400" overlap="1" leveltilesize="510">
-      <level preload="0" width="2048" predecode="0" height="2048"/>
-      <level preload="0" width="1024" predecode="0" height="1024"/>
-      <level preload="0" width="512" predecode="0" height="512"/>
-      <level preload="1" width="256" predecode="1" height="256"/>
+    <input overlap="1" levelingpitch="0" leveltilesize="510" levelingroll="0" levelbias="0.400" height="2048" width="2048" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" tilt="0" projection="4" fov="70"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
+    <view fovmode="0" pannorth="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fovstereographic="270" tilt="90" fov="120" pan="360" fovfisheye="360"/>
     </view>
-    <userdata copyright="" datetime="11-02-2025 16:35" source="" nodeid="node5" comment="" latitude="-38.451242" info="" tags="LOTEO Malalcahuello" author="" longitude="-71.521472" customnodeid="" title="default" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" wordwrap="1" borderalpha="1" width="180" textalpha="1" backgroundcolor="0xffffff" border="1" height="20" bordercolor="0x000000" borderradius="1" enabled="1" background="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" backgroundalpha="0.25098" mode="2" borderalpha="0" backgroundcolor="0x3aff68" bordercolor="0x0000ff"/>
+    <userdata customnodeid="" info="" title="default" copyright="" description="" author="" source="" comment="" tags="LOTEO Malalcahuello" latitude="-38.451242" nodeid="node5" datetime="11-02-2025 16:35" longitude="-71.521472"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label background="1" borderradius="1" backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" enabled="1" height="20" textalpha="1" width="180" borderalpha="1" border="1" backgroundalpha="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x3aff68" bordercolor="0x0000ff" handcursor="1" borderalpha="0" backgroundalpha="0.25098" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomfov="20" softedge="0" zoomin="0"/>
-    <autorotate nodefilter="" speed="0.020" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0" startloaded="0" delay="20.00"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" contextprojections="0" contextfullscreen="1" speedwheel="1" hideabout="0" invertcontrol="1" rubberband="0" sensitivity="8" lockedmouse="0" lockedwheel="0" lockedkeyboard="0"/>
+    <transition zoomoutpause="1" type="crossdissolve" zoomfov="20" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" enabled="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate startloaded="0" useanimation="0" speed="0.020" nodefilter="" noderandom="1" returntohorizon="0.000" delay="20.00" enabled="1" nodedelay="0.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control hideabout="0" invertcontrol="1" dblclickfullscreen="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" contextfullscreen="1" contextprojections="0" speedwheel="1" simulatemass="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" datetime="" source="" nodeid="master" comment="" latitude="" info="" tags="" author="" longitude="" customnodeid="" title="Loteo Malalcahuello" description=""/>
+    <userdata customnodeid="" info="" title="Hacienda Malalcahuello" copyright="" description="" author="" source="" comment="" tags="" latitude="" nodeid="master" datetime="" longitude=""/>
   </masternode>
 </tour>
